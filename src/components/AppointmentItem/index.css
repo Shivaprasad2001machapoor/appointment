@@ -1,0 +1,48 @@
+/* AppointmentItem.css */
+
+.appointment-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-bottom: 8px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.appointment-details {
+  flex: 1;
+  margin-right: 16px;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+p {
+  color: #888;
+  margin: 4px 0;
+}
+
+.star-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+}
+
+.star-button:hover {
+  background-color: #f0f0f0;
+  border-radius: 50%;
+}
+
+.starred {
+  color: #ffc107; /* Yellow color for starred items */
+}

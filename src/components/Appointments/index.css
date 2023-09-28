@@ -1,0 +1,153 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 48px;
+  background: linear-gradient(to left, #9796f0, #fbc7d4);
+  height: 100vh;
+  padding: 35px;
+}
+@media screen and (min-width: 768px) {
+  .comments-app-container {
+    margin-top: 96px;
+  }
+}
+
+.comments-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  max-width: 550px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .comments-container {
+    width: 80%;
+    max-width: 1140px;
+  }
+}
+.app-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 48px;
+  margin-bottom: 12px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-heading {
+    font-size: 56px;
+    margin-top: 0px;
+    margin-bottom: 24px;
+  }
+}
+
+.comments-inputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .comments-inputs {
+    flex-direction: row;
+  }
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  order: 1;
+}
+
+@media screen and (min-width: 768px) {
+  .form {
+    width: 28%;
+    min-width: 300px;
+    order: 0;
+  }
+}
+.title-input {
+  font-family: 'Roboto';
+  font-size: 16px;
+  height: 40px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  margin-bottom: 12px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+}
+.date-input {
+  font-family: 'Roboto';
+  font-size: 16px;
+  border: 1px solid #cbd2d9;
+  border-radius: 4px;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  outline: none;
+}
+.add-button {
+  background-color: #0284c7;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Roboto';
+  border-radius: 4px;
+  border: none;
+  padding-left: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 16px;
+  margin-top: 16px;
+  min-width: 60px;
+  align-self: flex-start;
+  outline: none;
+  cursor: pointer;
+}
+
+.image {
+  width: 280px;
+  height: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .image {
+    width: 380px;
+    height: 300px;
+  }
+}
+
+.heading {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  margin-left: 8px;
+}
+.line {
+  border: 2px solid #dee0e3;
+  width: 100%;
+  margin-top: 16px;
+}
+.bottom-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.appointments {
+  font-size: 20px;
+  font-weight: 700;
+}
+.button {
+  background-color: transparent;
+  border: 1px solid #9796f0;
+  border-radius: 6px;
+  padding: 5px;
+  height: 35px;
+  width: 100px;
+}
